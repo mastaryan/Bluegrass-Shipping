@@ -7,6 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://kit.fontawesome.com/2de0181d6e.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Allura">
 	</head>
 	<body class="is-preload">
 
@@ -50,19 +52,21 @@
 								</div>
 								<div class="container">
 									<header class="major">
+										<!-- <img class="header-img" src ="/images/logo1.png" alt="logo" />						 -->
 										<h2>Bluegrass Shipping</h2>
 										<p>Family Owned Expedited delivery<br />
-										service out of Southeast, Kentucky.</p>
+											service out of Southeast, Kentucky.</p>
 									</header>
 									<p>Whether your needs are local or across the country, we deliver.</p>
 								</div>
 							</section>
+						</div>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
 									<h3>Service Area</h3>
-									<p>Based out of London, KY we have direct access to the Hal Rogers Parkway and Interstate 75.</p>
+									<p>Based out of London, Kentucky, we have direct access to the Hal Rogers Parkway and Interstate 75.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-truck-fast">Same Day Delivery</li>
 										<li class="icon solid fa-dog">Pet Delivery</li>
@@ -84,21 +88,21 @@
 											<a href="#" class="image"><img src="images/shipping_bronze.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Bronze Courier Service Rate</h4>
-												<p>Our Bronze Courier Service offers same day delivery which is $1.25 per mile with a $10 minimum. Delivery is guarantee in state by the end of the day.</p>
+												<p>Our Bronze Courier Service offers same day delivery which is $0.75 per mile with a $10 minimum. Delivery is guarantee in state by the end of the day.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/shipping_silver.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Silver Courier Service Rate</h4>
-												<p>Our Silver Courier Service offers same day, in state, rush delivery within a few hours of order placement. $1.50 per mile with a $15 minimum.</p>
+												<p>Our Silver Courier Service offers same day, in state, rush delivery within a few hours of order placement. $1.00 per mile with a $15 minimum.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/shipping_gold.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Gold Courier Service Rate</h4>
-												<p>Our Gold Courier Service is a direct-run to arrive as quickly as possible is $1.75 per mile with a $20 minimum.</p>
+												<p>Our Gold Courier Service is a direct-run to arrive as quickly as possible is $1.25 per mile with a $20 minimum.</p>
 											</div>
 										</article>
 										<article>
@@ -127,20 +131,18 @@
 								<div class="container">
 									<h3>Contact Us</h3>
 									<p>Any questions or for your custom quote, please contact us.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+										<fieldset id="fs-frm-inputs">
+										  <label for="full-name">Full Name</label>
+										  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+										  <label for="email-address">Email Address</label>
+										  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+										  <label for="message">Message</label>
+										  <textarea rows="5" name="message" id="message" placeholder="Add what you are requesting to be shipped. Please be detailed as possible." required=""></textarea>
+										  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+										</fieldset>
+										<input type="submit" value="Submit">
+									  </form>
 								</div>
 							</section>
 

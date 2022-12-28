@@ -236,6 +236,14 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.header-img {
+		height: 100%;
+		width: 100%;
+		float: left;
+		display:block;
+		background-image: url(//images/logo1.png);
+		background-repeat: no-repeat;
+	}
 /* Row */
 
 	.row {
@@ -1787,6 +1795,7 @@ input, select, textarea {
 	header.major h2 {
 		color: #0b199e;
 		font-size: 3.5em;
+		font-family:Allura
 	}
 
 		header.major h2 + p {
